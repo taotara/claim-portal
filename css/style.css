@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+:root {
+  --color-primary: #63188C;
+  --color-secondary: #A7378D;
+  --color-tertiary: #fefd0d;
+}
+
+.big-box {
+  height: 100vh;
+  background: linear-gradient(var(--color-primary), var(--color-secondary));
+}
+
+.logo {
+  margin-bottom: -3.125rem;
+  z-index: 1;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.login-box {
+  background: white;
+  width: 30.625rem;
+  padding: 2.5rem 1.875rem;
+  z-index: 0;
+  border-radius: 1.875rem;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.login-box h1{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #323232;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.login-box p{
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #323232;
+  line-height: 19.5px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.login-box form .btn-purple {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: white;
+  background: var(--color-primary);
+  padding: 0.75rem 0;
+}
+
+.icon {
+  background: #AF93BF;
+}
+
+.icon span{
+  color: white;
+}
+
+.login-tale{
+  width: 325px;
+  background: white;
+  padding: 10px;
+  border-radius: 0px 0px 30px 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-primary);
+  text-transform: uppercase;
+}
+
+.login-box .forgot-password {
+  margin-top: 1.25rem;
+}
+
+.login-box .forgot-password a {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.login-box .forgot-password a:hover {
+  color: var(--color-secondary);
+}
