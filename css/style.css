@@ -12,8 +12,8 @@ body {
 }
 
 :root {
-  --color-primary: #63188C;
-  --color-secondary: #A7378D;
+  --color-primary: #63188c;
+  --color-secondary: #a7378d;
   --color-tertiary: #fefd0d;
 }
 
@@ -40,7 +40,7 @@ body {
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
-.login-box h1{
+.login-box h1 {
   font-size: 1.5rem;
   font-weight: 600;
   color: #323232;
@@ -48,7 +48,7 @@ body {
   text-align: center;
 }
 
-.login-box p{
+.login-box p {
   font-size: 0.875rem;
   font-weight: 400;
   color: #323232;
@@ -66,14 +66,14 @@ body {
 }
 
 .icon {
-  background: #AF93BF;
+  background: #af93bf;
 }
 
-.icon span{
+.icon span {
   color: white;
 }
 
-.login-tale{
+.login-tale {
   width: 325px;
   background: white;
   padding: 10px;
@@ -98,4 +98,58 @@ body {
 
 .login-box .forgot-password a:hover {
   color: var(--color-secondary);
+}
+
+/*--------------- Modal ---------------------*/
+
+.modal-dialog .modal-header {
+  border-bottom: none;
+}
+
+.modal-dialog .modal-header h1 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #323232;
+  position: relative;
+}
+
+.modal-dialog .modal-header h1::after {
+  position: absolute;
+  content: '';
+  width: 465px;
+  height: 4px;
+  background: linear-gradient(
+    0.25turn,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  left: 0;
+  bottom: -8px;
+}
+
+.modal-body p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #323232;
+}
+
+.modal-body form {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1c1818;
+}
+
+.modal-body form .btn-purple {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: white;
+  background: var(--color-primary);
+  padding: 0.75rem 1.5rem;
+}
+
+.modal-body form a {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--color-primary);
+  text-decoration: none;
 }
