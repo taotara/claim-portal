@@ -7,14 +7,15 @@
 }
 
 body {
-  background: #F6F2F8;
+  background: #f6f2f8;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
 
 :root {
   --color-primary: #63188c;
-  --color-secondary: #a7378d;
+  --color-secondary: rgb(168, 56, 142);
+  --color-thirtairy: #af93bf;
   --offcanvas-width: 270px;
   --topNavbarHeight: 56px;
 }
@@ -156,27 +157,53 @@ body {
   text-decoration: none;
 }
 
-.side-bar{
+/*------------------ Dashboard ------------------*/
+.header-top {
+  background: var(--color-primary);
+}
+
+.side-bar {
   width: var(--offcanvas-width) !important;
   border-right: none;
 }
 
-.sidebar-link{
+.sidebar-link {
   display: flex;
   align-items: center;
 }
 
-.sideba-link .right-icon {
+.sidebar-link .right-icon {
   display: inline-flex;
   transition: all ease 0.25s;
 }
 
-.sidebar-link[aria-expanded="true"] .right-icon {
+.sidebar-link[aria-expanded='true'] .right-icon {
   transform: rotate(180deg);
 }
 
+.btn-search {
+  background: var(--color-thirtairy);
+  color: white;
+}
+
+.card-name {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.total-claims {
+  font-size: 34px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.total-claims span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 @media (min-width: 992px) {
-  body{
+  body {
     overflow: auto !important;
   }
 
@@ -188,15 +215,15 @@ body {
     border-right: none !important;
   }
 
-  .side-bar{
-  background: transparent;
+  .side-bar {
+    background: linear-gradient(var(--color-primary), var(--color-secondary));
     transform: none !important;
     visibility: visible !important;
     top: var(--topNavbarHeight) !important;
     height: calc(100% - var(--topNavbarHeight));
   }
 
-  main{
+  main {
     margin-left: var(--offcanvas-width);
   }
 

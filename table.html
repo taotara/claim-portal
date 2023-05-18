@@ -26,7 +26,7 @@
   <body>
     <!-- <div class="container fluid"> -->
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top header-top">
       <div class="container-fluid">
         <!-- Offcanvas Trigger -->
         <button
@@ -39,7 +39,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Offcanvas Trigger End -->
-        <a class="navbar-brand fw-bold text-uppercase" href="#"
+        <a class="navbar-brand fw-bold text-uppercase text-light" href="#"
           >ATM NOU PORTAL</a
         >
         <button
@@ -64,7 +64,7 @@
                 aria-describedby="button-addon2"
               />
               <button
-                class="btn btn-outline-secondary"
+                class="btn btn-search"
                 type="button"
                 id="button-addon2"
               >
@@ -75,7 +75,7 @@
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle text-light"
                 href="#"
                 id="navbarDropdown"
                 role="button"
@@ -114,12 +114,12 @@
           <nav>
             <ul class="navbar-nav">
               <li>
-                <div class="text-muted small fw-bold text-uppercase px-3">
+                <div class="text-light small fw-bold text-uppercase px-3">
                   Forms
                 </div>
               </li>
               <li>
-                <a href="#" class="nav-link px-3 active">
+                <a href="#" class="nav-link text-light px-3 active">
                   <span class="me-2"><i class="bi bi-speedometer2"></i></span>
                   <span>Dashboard</span>
                 </a>
@@ -128,13 +128,13 @@
                 <hr dropdown-divider />
               </li>
               <li>
-                <div class="text-muted small fw-bold text-uppercase px-3">
+                <div class="text-light small fw-bold text-uppercase px-3">
                   Tables
                 </div>
               </li>
               <li>
                 <a
-                  class="nav-link px-3 sidebar-link"
+                  class="nav-link text-light px-3 sidebar-link"
                   data-bs-toggle="collapse"
                   href="#collapseExample"
                   role="button"
@@ -149,7 +149,7 @@
                   <div class="">
                   <div>
                     <ul class="navbar-nav ps-3">
-                      <a href="#" class="nav-link px-3">
+                      <a href="#" class="nav-link text-light px-3">
                         <span class="me-2"><i class="bi bi-link-45deg"></i></span>
                         <span>Nexted Link</span>
                       </a>
@@ -167,43 +167,39 @@
       <div class="container fluid">
         <div class="row px-1">
           <div class="col-md-12">
-            <h2 class="fw-normal fs-3">Dashboard</h2>
+            <h2 class="fw-normal fs-3 mb-3">Dashboard</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row mb-3">
           <div class="col-md-3 mb-3">
             <div class="card text-white bg-primary mb-3 h-100" >
-              <div class="card-header">Header</div>
               <div class="card-body">
-                <h5 class="card-title">Primary card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title card-name">Visa Card</h5>
+                <h4 class="card-text total-claims">120 <span>Claims</span></h4>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card text-white bg-primary mb-3 h-100">
-              <div class="card-header">Header</div>
+            <div class="card text-white bg-danger mb-3 h-100">
               <div class="card-body">
-                <h5 class="card-title">Primary card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title card-name">Master Carde</h5>
+                <h4 class="card-text total-claims">600 <span>Claims</span></h4>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card text-white bg-primary mb-3 h-100">
-              <div class="card-header">Header</div>
+            <div class="card text-white bg-warning mb-3 h-100">
               <div class="card-body">
-                <h5 class="card-title">Primary card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title card-name">Verve Card</h5>
+                <h4 class="card-text total-claims">120 <span>Claims</span></h4>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card text-white bg-primary mb-3 h-100">
-              <div class="card-header">Header</div>
+            <div class="card text-white bg-success mb-3 h-100">
               <div class="card-body">
-                <h5 class="card-title">Primary card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title card-name">Freedom Card</h5>
+                <h4 class="card-text total-claims">120 <span>Claims</span></h4>
               </div>
             </div>
           </div>
