@@ -13,7 +13,7 @@ body {
 }
 
 :root {
-  --color-primary: #63188c;
+  --color-primary: rgb(99, 24, 140);
   --color-secondary: rgb(168, 56, 142);
   --color-thirtairy: #af93bf;
   --offcanvas-width: 270px;
@@ -200,6 +200,76 @@ body {
 .total-claims span {
   font-size: 16px;
   font-weight: 400;
+}
+
+/*----------------- Table -----------------*/
+
+.dataTables_wrapper .dataTables_filter input {
+  border: 1px solid var(--color-primary);
+}
+
+tr .odd {
+  background: #63188c;
+}
+
+/*-------------------- Form --------------------*/
+form {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+textarea:focus,
+input[type='checkbox']:focus,
+input[type='radio']:focus,
+input[type='file']:focus,
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='datetime']:focus,
+input[type='datetime-local']:focus,
+input[type='date']:focus,
+input[type='month']:focus,
+input[type='time']:focus,
+input[type='week']:focus,
+input[type='number']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='search']:focus,
+input[type='tel']:focus,
+input[type='color']:focus,
+.uneditable-input:focus {
+  border-color: rgba(99, 24, 140, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(99, 24, 140, 0.6);
+  outline: 0 none;
+}
+
+.form-check-input:checked {
+  background-color: var(--color-primary);
+  border-color: var(--color-secondary);
+}
+
+.btn-purple {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: white;
+  background: var(--color-primary);
+  padding: 5px 15px;
+}
+
+select:not([size]):not([multiple]) {
+  height: calc(2.25rem + 2px); 
+}
+
+select:focus {
+  color: #323232;
+  /* background-color: var(--color-thirtairy);  */
+}
+
+select option {
+  margin: 40px;
+  background: var(--color-thirtairy); 
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
 
 @media (min-width: 992px) {
