@@ -61,11 +61,11 @@ body {
 }
 
 .login-box form .btn-purple {
-  font-size: 1.125rem;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: 500;
   color: white;
   background: var(--color-primary);
-  padding: 0.75rem 0;
+  padding: 5px 15px;
 }
 
 .icon {
@@ -143,11 +143,11 @@ body {
 }
 
 .modal-body form .btn-purple {
-  font-size: 1.125rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: white;
   background: var(--color-primary);
-  padding: 0.75rem 1.5rem;
+  padding: 5px 15px;
 }
 
 .modal-body form a {
