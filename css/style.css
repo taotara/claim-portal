@@ -187,16 +187,16 @@ aside {
 
 nav ul li .logout {
   position: absolute;
-  bottom: 80px;
+  bottom: 20px;
 }
 
 .user-details {
   padding-left: 20px;
   padding-right: 10px;
-  margin-bottom: -20px;
   color: white;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .user-details h5 {
