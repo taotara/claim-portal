@@ -181,6 +181,33 @@ body {
   transform: rotate(180deg);
 }
 
+aside {
+  position: relative;
+}
+
+nav ul li .logout {
+  position: absolute;
+  bottom: 80px;
+}
+
+.user-details {
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-bottom: -20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-details h5 {
+  font-size: 14px;
+}
+
+.user-details p{
+  font-size: 14px;
+  margin-top: -5px;
+}
+
 .btn-search {
   background: var(--color-thirtairy);
   color: white;
