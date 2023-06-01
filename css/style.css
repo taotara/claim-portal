@@ -146,14 +146,14 @@ body {
 
 
 
-.send .forgot-password a {
+.send a {
   font-size: 0.875rem;
   font-weight: 400;
   color: var(--color-primary);
   text-decoration: none;
 }
 
-.send .forgot-password a:hover {
+.send a:hover {
   color: var(--color-secondary);
 }
 
