@@ -85,8 +85,8 @@ body {
 .login-box form .button--loading::after {
     content: "";
     position: absolute;
-    width: 16px;
-    height: 16px;
+    width: 30px;
+    height: 30px;
     top: 0;
     left: 0;
     right: 0;
@@ -129,7 +129,7 @@ body {
   text-transform: uppercase;
 }
 
-.login-box .forgot-password {
+.log.forgot-password {
   margin-top: 1.25rem;
 }
 
@@ -141,6 +141,19 @@ body {
 }
 
 .login-box .forgot-password a:hover {
+  color: var(--color-secondary);
+}
+
+
+
+.send .forgot-password a {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.send .forgot-password a:hover {
   color: var(--color-secondary);
 }
 
@@ -254,20 +267,60 @@ nav ul li .logout {
   color: white;
 }
 
+.card-body {
+  padding-bottom: 0px !important;
+}
 .card-name {
   font-size: 24px;
   font-weight: 300;
 }
 
-.total-claims {
-  font-size: 34px;
-  font-weight: 600;
-  padding-top: 20px;
+.card-name span {
+  font-size: 12px;
 }
 
-.total-claims span {
-  font-size: 16px;
+.info a {
+  color: white;
+}
+
+.info a:hover {
+  color: var(--color-primary);
+}
+
+.claims {
+  font-size: 25px;
+  font-weight: 600;
+  /* padding-top: 20px; */
+  
+}
+
+.claims h4 {
+  margin-top: -50px;
+}
+
+.claims span {
+  font-size: 14px;
   font-weight: 400;
+  display: block;
+}
+
+.slash {
+  font-size: 30px;
+  justify-self: center;
+}
+
+.pending {
+  padding-top: 10px;
+}
+
+.pending h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.pending span {
+  font-size: 14px;
+  font-weight: 300;
 }
 
 /*----------------- Table -----------------*/
