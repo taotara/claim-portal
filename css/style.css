@@ -267,6 +267,8 @@ nav ul li .logout {
   color: white;
 }
 
+
+/* Changes start here */
 .card-body {
   padding-bottom: 0px !important;
 }
@@ -290,7 +292,6 @@ nav ul li .logout {
 .claims {
   font-size: 25px;
   font-weight: 600;
-  /* padding-top: 20px; */
   
 }
 
@@ -302,11 +303,6 @@ nav ul li .logout {
   font-size: 14px;
   font-weight: 400;
   display: block;
-}
-
-.slash {
-  font-size: 30px;
-  justify-self: center;
 }
 
 .pending {
@@ -322,6 +318,8 @@ nav ul li .logout {
   font-size: 14px;
   font-weight: 300;
 }
+
+/* Changes end here */
 
 /*----------------- Table -----------------*/
 
